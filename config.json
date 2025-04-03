@@ -1,0 +1,17 @@
+{
+  "uisp": {
+    "base_url": "https://uisp.nycmesh.net",
+    "api_token": null,
+    "username": null,
+    "password": null
+  },
+  "database": {
+    "path": "frequency_data.db"
+  },
+  "output": {
+    "directory": "output"
+  },
+  "dashboard": {
+    "port": 8050
+  }
+}
