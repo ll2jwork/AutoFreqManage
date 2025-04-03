@@ -288,7 +288,7 @@ class NYCMeshFrequencyTool:
         
         # Run server
         logger.info(f"Starting integrated dashboard on http://localhost:{port}")
-        app.run_server(debug=debug, port=port)
+        app.run(debug=debug, port=port)
     
     def _create_dashboard_layout(self):
         """
